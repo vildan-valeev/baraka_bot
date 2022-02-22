@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  bot_tg:
+    build:
+      context: ./bot_tg
+      dockerfile: Dockerfile
+    container_name: bot_tg
+    command: python3 bot.py
