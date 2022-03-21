@@ -11,7 +11,4 @@ else:
 
 ADMINS = env.list("ADMINS")
 TG_TOKEN = env.str("TG_TOKEN")
-LOGIN = env.str("LOGIN")
-PASSWORD = env.str("PASSWORD")
-HOST = env.str("HOST")
-PORT = env.str("PORT")
+
